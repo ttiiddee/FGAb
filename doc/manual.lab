@@ -1,0 +1,52 @@
+\GAPDocLabFile{fgab}
+\makelabel{fgab:Title page}{}{X7D2C85EC87DD46E5}
+\makelabel{fgab:Table of Contents}{}{X8537FEB07AF2BEC8}
+\makelabel{fgab:Introduction}{1}{X7DFB63A97E67C0A1}
+\makelabel{fgab:FGAb}{2}{X802A67727D87EFF5}
+\makelabel{fgab:FGAbElement}{2.1}{X833081227C05A75C}
+\makelabel{fgab:Additive Group}{2.2}{X85E244B5797D4BBD}
+\makelabel{fgab:FGAbHomomorphism}{3}{X7E7B90F37DDBF289}
+\makelabel{fgab:FGAbHomomorphism}{3.1}{X7E7B90F37DDBF289}
+\makelabel{fgab:Image, Images}{3.1.1}{X87F942ED85370A8A}
+\makelabel{fgab:PreImage, PreImages}{3.1.2}{X7B8B0F7A78067FF4}
+\makelabel{fgab:limits and colimits}{3.2}{X857CF4D487158F26}
+\makelabel{fgab:Index}{Ind}{X83A0356F839C696F}
+\makelabel{fgab:FGAbElement for IsFGAb, IsVector}{2.1.1}{X85FB9A8E7D9D5BD9}
+\makelabel{fgab:IsFGAbElement for IsAdditiveElementWithInverse and IsAdditiveElementWithZero and IsExtLElement and IsExtRElement}{2.1.2}{X78C70AB87C8D345C}
+\makelabel{fgab:IsFGAbElementCollection}{2.1.2}{X78C70AB87C8D345C}
+\makelabel{fgab:IsFGAbElementCollColl}{2.1.2}{X78C70AB87C8D345C}
+\makelabel{fgab:IsFGAb for IsAdditiveGroup and IsFGAbElementCollection}{2.2.1}{X812F2E4D7EE2725A}
+\makelabel{fgab:UnderlyingMatrix for IsFGAb and IsFGAbRep}{2.2.2}{X82A67F3784ED5DDC}
+\makelabel{fgab:SimplifiedFGAb for IsFGAb and IsFGAbRep}{2.2.3}{X78580BDE798175FE}
+\makelabel{fgab:ToSimplifiedFGAb for IsFGAb and IsFGAbRep}{2.2.3}{X78580BDE798175FE}
+\makelabel{fgab:FromSimplifiedFGAb for IsFGAb and IsFGAbRep}{2.2.3}{X78580BDE798175FE}
+\makelabel{fgab:FGAb for IsVector}{2.2.4}{X8218CF358690CA7A}
+\makelabel{fgab:FreeFGAb for IsInt}{2.2.5}{X83E9554D87ADDB5C}
+\makelabel{fgab:SubFGAb for IsFGAb, IsList}{2.2.6}{X8504AC788030B079}
+\makelabel{fgab:FromSubFGAb for IsFGAb and IsFGAbRep}{2.2.6}{X8504AC788030B079}
+\makelabel{fgab:IndependentGeneratorsOfAdditiveGroup for IsAdditiveGroup}{2.2.7}{X81A7960B80AEBBDF}
+\makelabel{fgab:FGAbDirectSum for IsFGAb, IsFGAb}{2.2.8}{X7C9D77E27FA5601A}
+\makelabel{fgab:FGAbDirectSum for IsList}{2.2.8}{X7C9D77E27FA5601A}
+\makelabel{fgab:FGAbDirectSumInfo for IsFGAb}{2.2.8}{X7C9D77E27FA5601A}
+\makelabel{fgab:Embedding for IsFGAb and IsFGAbRep and HasFGAbDirectSumInfo, IsPosInt}{2.2.8}{X7C9D77E27FA5601A}
+\makelabel{fgab:Projection for IsFGAb and IsFGAbRep and HasFGAbDirectSumInfo, IsPosInt}{2.2.8}{X7C9D77E27FA5601A}
+\makelabel{fgab:GeneratorsOfAdditiveGroup for IsFGAb and IsFGAbRep}{2.2.9}{X86EC1DD67A24122F}
+\makelabel{fgab:Intersection2 for IsAdditiveGroup and IsFGAbElementCollection, IsAdditiveGroup and IsFGAbElementCollection}{2.2.10}{X7A40CD9D7BDD45BB}
+\makelabel{fgab:IsTrivial for IsFGAb and IsFGAbRep}{2.2.12}{X7E587C87785E33FD}
+\makelabel{fgab:IsFGAbHomomorphism for IsAdditiveGroupGeneralMapping}{3.1.3}{X80E6E0F67EB4EE86}
+\makelabel{fgab:FGAbHomomorphism for IsFGAb, IsFGAb, IsMatrixOrMatrixObj}{3.1.4}{X7E77D0B08589328A}
+\makelabel{fgab:FGAbHomomorphismNC for IsFGAb, IsFGAb, IsMatrixOrMatrixObj}{3.1.4}{X7E77D0B08589328A}
+\makelabel{fgab:FGAbHomomorphism for IsFGAb, IsFGAb, IsMatrixOrMatrixObj, IsMatrixOrMatrixObj}{3.1.4}{X7E77D0B08589328A}
+\makelabel{fgab:FGAbHomomorphismNC for IsFGAb, IsFGAb, IsMatrixOrMatrixObj, IsMatrixOrMatrixObj}{3.1.4}{X7E77D0B08589328A}
+\makelabel{fgab:UnderlyingMatrix for IsFGAbHomomorphism and IsFGAbHomomorphismRep}{3.1.5}{X7A97BF7B7F3E9A3B}
+\makelabel{fgab:LiftingMatrix for IsFGAbHomomorphism and IsFGAbHomomorphismRep}{3.1.6}{X7E90BCEA7AD9EDEB}
+\makelabel{fgab:FGAbKernel for IsFGAbHomomorphism and IsFGAbHomomorphismRep}{3.2.1}{X7A38EC84839A5408}
+\makelabel{fgab:FromFGAbKernel for IsFGAb and IsFGAbRep}{3.2.1}{X7A38EC84839A5408}
+\makelabel{fgab:UnderlyingFGAbKernel for IsAdditiveGroup}{3.2.1}{X7A38EC84839A5408}
+\makelabel{fgab:KernelOfAdditiveGeneralMapping for IsFGAbHomomorphism and IsFGAbHomomorphismRep}{3.2.1}{X7A38EC84839A5408}
+\makelabel{fgab:FGAbCokernel for IsFGAbHomomorphism and IsFGAbHomomorphismRep}{3.2.2}{X7E7E8F57805CB1DF}
+\makelabel{fgab:ToFGAbCokernel for IsFGAb and IsFGAbRep}{3.2.2}{X7E7E8F57805CB1DF}
+\makelabel{fgab:FGAbPullback for IsFGAbHomomorphism and IsFGAbHomomorphismRep, IsFGAbHomomorphism and IsFGAbHomomorphismRep}{3.2.3}{X87A48093864D9E0E}
+\makelabel{fgab:FromFGAbPullback for IsFGAb and IsFGAbRep, IsInt}{3.2.3}{X87A48093864D9E0E}
+\makelabel{fgab:FGAbPushout for IsFGAbHomomorphism and IsFGAbHomomorphismRep, IsFGAbHomomorphism and IsFGAbHomomorphismRep}{3.2.4}{X7C87F9E685850A2D}
+\makelabel{fgab:ToFGAbPushout for IsFGAb and IsFGAbRep, IsInt}{3.2.4}{X7C87F9E685850A2D}

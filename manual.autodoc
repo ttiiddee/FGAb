@@ -1,0 +1,27 @@
+@Chapter Introduction
+
+This package is developed for computation problems of `FGAb`, i.e. the abbreviation of finitely generated abelian groups. For example, we are able to compute the kernel and cokernel of a `FGAbHomomorphism`, along with the direct sum, we can compute all finite limits and colimits, in particular, pullback and pushout.
+
+The basic idea is to use a matrix $f$ over integers to represent a `FGAb`. The finitely generated abelian group $A$ it represents is equivalent to the cokernel of $f:\mathbb{Z}^n\to \mathbb{Z}^m$. The readers who are familiar with the homological algebra could think $f$ as the free resolutoin of $A$. Actually, almost all algorithms in this package are developed using the knowledge of homological algebra. For example, we use the mapping cone and cocone to compute kernel and cokernel. For more details, see the appendix of our paper $\color{red}{\textrm{(add this later)}}$.
+
+@Chapter `FGAb`
+
+The matrices and vectors used in our data structures are `MatrixObj` and `VectorObj`. The reason for using them is that we often encounter 0-dimensional matrices and vectors. However, you don't need to be worried about it as a user, since most functions support naive matrices and vectors.
+
+@Section `FGAbElement`
+
+@Section Additive Group
+
+@Chapter `FGAbHomomorphism`
+
+@Section `FGAbHomomorphism`
+
+@Subsection `Image`, `Images`
+
+`Image` and `Images` can be used directly even for a `SubFGAb`. 
+
+@Subsection `PreImage`, `PreImages`
+
+`PreImage` and `PreImages` only works for a `SubFGAb`, since the preimage of an element is not a `FGAb` but a additive coset, our method can't apply. However, `PreImagesRepresentative` is available.
+
+@Section Limits and Colimits

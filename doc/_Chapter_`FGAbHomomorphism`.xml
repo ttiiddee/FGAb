@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an automatically generated file. -->
+<Chapter Label="Chapter_`FGAbHomomorphism`">
+<Heading><Code>FGAbHomomorphism</Code></Heading>
+
+<P/>
+<Section Label="Chapter_`FGAbHomomorphism`_Section_`FGAbHomomorphism`">
+<Heading><Code>FGAbHomomorphism</Code></Heading>
+
+<P/>
+<Subsection Label="Chapter_`FGAbHomomorphism`_Section_`FGAbHomomorphism`_Subsection_`Image`,_`Images`">
+<Heading><Code>Image</Code>, <Code>Images</Code></Heading>
+
+<P/>
+<Code>Image</Code> and <Code>Images</Code> can be used directly even for a <Code>SubFGAb</Code>. 
+<P/>
+</Subsection>
+
+<Subsection Label="Chapter_`FGAbHomomorphism`_Section_`FGAbHomomorphism`_Subsection_`PreImage`,_`PreImages`">
+<Heading><Code>PreImage</Code>, <Code>PreImages</Code></Heading>
+
+<P/>
+<Code>PreImage</Code> and <Code>PreImages</Code> only works for a <Code>SubFGAb</Code>, since the preimage of an element is not a <Code>FGAb</Code> but a additive coset, our method can't apply. However, <Code>PreImagesRepresentative</Code> is available.
+<P/>
+</Subsection>
+
+<ManSection>
+  <Filt Arg="m" Type="Category" Name="IsFGAbHomomorphism" Label="for IsAdditiveGroupGeneralMapping"/>
+ <Returns><K>true</K> or <K>false</K>
+</Returns>
+ <Description>
+<P/>
+ </Description>
+</ManSection>
+
+<ManSection Label="`FGAbHomomorphism`">
+  <Oper Arg="A, B, m" Name="FGAbHomomorphism" Label="for IsFGAb, IsFGAb, IsMatrixOrMatrixObj"/>
+  <Oper Arg="A, B, m" Name="FGAbHomomorphismNC" Label="for IsFGAb, IsFGAb, IsMatrixOrMatrixObj"/>
+  <Oper Arg="A, B, m, n" Name="FGAbHomomorphism" Label="for IsFGAb, IsFGAb, IsMatrixOrMatrixObj, IsMatrixOrMatrixObj"/>
+  <Oper Arg="A, B, m, n" Name="FGAbHomomorphismNC" Label="for IsFGAb, IsFGAb, IsMatrixOrMatrixObj, IsMatrixOrMatrixObj"/>
+ <Returns>a <Code>FGAbHomomorphism</Code>
+</Returns>
+ <Description>
+<Code>A</Code> and <Code>B</Code> are <Code>FGAb</Code> as domain and codomain. Let <Code>A</Code> be <Math>A_1\to A_0</Math>, and <Code>B</Code> be <Math>B_1\to B_0</Math>, <Code>m</Code> is a matrix representing a map <Math>A_0\to B_0</Math>. <Code>n</Code> is a matrix representing a map <Math>A_1\to B_1</Math>. <Code>n</Code> is actually determined by <Code>m</Code> up to a chain homotopy. Therefore, we don't need to give <Code>n</Code> explicitly.
+<P/>
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Attr Arg="A" Name="UnderlyingMatrix" Label="for IsFGAbHomomorphism and IsFGAbHomomorphismRep"/>
+ <Returns>the underlying matirx <Math>A_0\to B_0</Math> of a <Code>FGAbHomomorphism</Code>
+</Returns>
+ <Description>
+<P/>
+ </Description>
+</ManSection>
+
+<ManSection>
+  <Attr Arg="A" Name="LiftingMatrix" Label="for IsFGAbHomomorphism and IsFGAbHomomorphismRep"/>
+ <Returns>the underlying matirx <Math>A_1\to B_1</Math> of a <Code>FGAbHomomorphism</Code>
+</Returns>
+ <Description>
+<P/>
+ </Description>
+</ManSection>
+
+</Section>
+
+<Section Label="Chapter_`FGAbHomomorphism`_Section_limits_and_colimits">
+<Heading>limits and colimits</Heading>
+
+<ManSection Label="`FGAbKernel`">
+  <Attr Arg="f" Name="FGAbKernel" Label="for IsFGAbHomomorphism and IsFGAbHomomorphismRep"/>
+  <Attr Arg="A" Name="FromFGAbKernel" Label="for IsFGAb and IsFGAbRep"/>
+  <Attr Arg="A" Name="UnderlyingFGAbKernel" Label="for IsAdditiveGroup"/>
+  <Meth Arg="f" Name="KernelOfAdditiveGeneralMapping" Label="for IsFGAbHomomorphism and IsFGAbHomomorphismRep"/>
+ <Description>
+<Code>FGAbKernel(f)</Code> is a <Code>FGAb</Code> equipped with <Code>FromFGAbKernel</Code>.
+The input of <Code>FromFGAbKernel</Code> must be a output of <Code>FGAbKernel</Code>.
+<P/>
+You can use just <Code>Kernel(f)</Code> to get the same result as <Code>KernelOfAdditiveGeneralMapping(f)</Code>. <Code>Kernel(f)</Code> has an attribute <Code>UnderlyingFGAbKernel(A)</Code> which is a output of <Code>FGAbKernel</Code>.
+<P/>
+ <Code>Kernel(f)</Code> is what you should use. Because <Code>Kernel(f)</Code> is actually a subset of <Code>Range(f)</Code>, in particular, a SubFGAb. However, <Code>FGAbKernel(f)</Code> is just a <Code>FGAb</Code> equipped with a canonical map. <Code>FGAbKernel</Code> should be treated as an inner-built function, which is used to get <Code>kernel(f)</Code>.
+ </Description>
+</ManSection>
+
+<ManSection Label="`FGAbCokernel`">
+  <Attr Arg="f" Name="FGAbCokernel" Label="for IsFGAbHomomorphism and IsFGAbHomomorphismRep"/>
+  <Attr Arg="A" Name="ToFGAbCokernel" Label="for IsFGAb and IsFGAbRep"/>
+ <Description>
+<Code>FGAbKernel(f)</Code> is a <Code>FGAb</Code> equipped with <Code>ToFGAbCokernel</Code>.
+The input of <Code>FromFGAbCokernel</Code> must be a output of <Code>FGAbCokernel</Code>.
+ </Description>
+</ManSection>
+
+<ManSection Label="`FGAbPullback`">
+  <Oper Arg="f1, f2" Name="FGAbPullback" Label="for IsFGAbHomomorphism and IsFGAbHomomorphismRep, IsFGAbHomomorphism and IsFGAbHomomorphismRep"/>
+  <Oper Arg="A, n" Name="FromFGAbPullback" Label="for IsFGAb and IsFGAbRep, IsInt"/>
+ <Description>
+<Code>FGAbPullback(f1, f2)</Code> is a <Code>FGAb</Code> equipped with <Code>FromFGAbPullback</Code>.
+<Code>FromFGAbPullback(A, n)</Code> is the projection to <Code>Source(f1)</Code> or <Code>Source(f2)</Code>.
+ </Description>
+</ManSection>
+
+<ManSection Label="`FGAbPushout`">
+  <Oper Arg="f1, f2" Name="FGAbPushout" Label="for IsFGAbHomomorphism and IsFGAbHomomorphismRep, IsFGAbHomomorphism and IsFGAbHomomorphismRep"/>
+  <Oper Arg="A, n" Name="ToFGAbPushout" Label="for IsFGAb and IsFGAbRep, IsInt"/>
+ <Description>
+<Code>FGAbPushout(f1, f2)</Code> is a <Code>FGAb</Code> equipped with <Code>ToFGAbPushout</Code>.
+<Code>ToFGAbPushout(A, n)</Code> is the projection to <Code>Range(f1)</Code> or <Code>Range(f2)</Code>.
+ </Description>
+</ManSection>
+
+</Section>
+
+</Chapter>
+

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>GAP (fgab) - Chapter 3: FGAbHomomorphism</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="GAPDoc2HTML" />
+<link rel="stylesheet" type="text/css" href="manual.css" />
+<script src="manual.js" type="text/javascript"></script>
+<script type="text/javascript">overwriteStyle();</script>
+</head>
+<body class="chap3"  onload="jscontent()">
+
+
+<div class="chlinktop"><span class="chlink1">Goto Chapter: </span><a href="chap0.html">Top</a>  <a href="chap1.html">1</a>  <a href="chap2.html">2</a>  <a href="chap3.html">3</a>  <a href="chapInd.html">Ind</a>  </div>
+
+<div class="chlinkprevnexttop">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap2.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chapInd.html">[Next Chapter]</a>&nbsp;  </div>
+
+<p id="mathjaxlink" class="pcenter"><a href="chap3_mj.html">[MathJax on]</a></p>
+<p><a id="X7E7B90F37DDBF289" name="X7E7B90F37DDBF289"></a></p>
+<div class="ChapSects"><a href="chap3.html#X7E7B90F37DDBF289">3 <span class="Heading"><code class="code">FGAbHomomorphism</code></span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3.html#X7E7B90F37DDBF289">3.1 <span class="Heading"><code class="code">FGAbHomomorphism</code></span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X87F942ED85370A8A">3.1-1 <span class="Heading"><code class="code">Image</code>, <code class="code">Images</code></span></a>
+</span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7B8B0F7A78067FF4">3.1-2 <span class="Heading"><code class="code">PreImage</code>, <code class="code">PreImages</code></span></a>
+</span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X80E6E0F67EB4EE86">3.1-3 IsFGAbHomomorphism</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7E77D0B08589328A">3.1-4 FGAbHomomorphism</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7A97BF7B7F3E9A3B">3.1-5 UnderlyingMatrix</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7E90BCEA7AD9EDEB">3.1-6 LiftingMatrix</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap3.html#X857CF4D487158F26">3.2 <span class="Heading">limits and colimits</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7A38EC84839A5408">3.2-1 FGAbKernel</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7E7E8F57805CB1DF">3.2-2 FGAbCokernel</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X87A48093864D9E0E">3.2-3 FGAbPullback</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap3.html#X7C87F9E685850A2D">3.2-4 FGAbPushout</a></span>
+</div></div>
+</div>
+
+<h3>3 <span class="Heading"><code class="code">FGAbHomomorphism</code></span></h3>
+
+<p><a id="X7E7B90F37DDBF289" name="X7E7B90F37DDBF289"></a></p>
+
+<h4>3.1 <span class="Heading"><code class="code">FGAbHomomorphism</code></span></h4>
+
+<p><a id="X87F942ED85370A8A" name="X87F942ED85370A8A"></a></p>
+
+<h5>3.1-1 <span class="Heading"><code class="code">Image</code>, <code class="code">Images</code></span></h5>
+
+<p><code class="code">Image</code> and <code class="code">Images</code> can be used directly even for a <code class="code">SubFGAb</code>.</p>
+
+<p><a id="X7B8B0F7A78067FF4" name="X7B8B0F7A78067FF4"></a></p>
+
+<h5>3.1-2 <span class="Heading"><code class="code">PreImage</code>, <code class="code">PreImages</code></span></h5>
+
+<p><code class="code">PreImage</code> and <code class="code">PreImages</code> only works for a <code class="code">SubFGAb</code>, since the preimage of an element is not a <code class="code">FGAb</code> but a additive coset, our method can't apply. However, <code class="code">PreImagesRepresentative</code> is available.</p>
+
+<p><a id="X80E6E0F67EB4EE86" name="X80E6E0F67EB4EE86"></a></p>
+
+<h5>3.1-3 IsFGAbHomomorphism</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsFGAbHomomorphism</code>( <var class="Arg">m</var> )</td><td class="tdright">(&nbsp;category&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
+
+<p><a id="X7E77D0B08589328A" name="X7E77D0B08589328A"></a></p>
+
+<h5>3.1-4 FGAbHomomorphism</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; FGAbHomomorphism</code>( <var class="Arg">A</var>, <var class="Arg">B</var>, <var class="Arg">m</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; FGAbHomomorphismNC</code>( <var class="Arg">A</var>, <var class="Arg">B</var>, <var class="Arg">m</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; FGAbHomomorphism</code>( <var class="Arg">A</var>, <var class="Arg">B</var>, <var class="Arg">m</var>, <var class="Arg">n</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; FGAbHomomorphismNC</code>( <var class="Arg">A</var>, <var class="Arg">B</var>, <var class="Arg">m</var>, <var class="Arg">n</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a <code class="code">FGAbHomomorphism</code></p>
+
+<p><code class="code">A</code> and <code class="code">B</code> are <code class="code">FGAb</code> as domain and codomain. Let <code class="code">A</code> be <span class="Math">A_1\to A_0</span>, and <code class="code">B</code> be <span class="Math">B_1\to B_0</span>, <code class="code">m</code> is a matrix representing a map <span class="Math">A_0\to B_0</span>. <code class="code">n</code> is a matrix representing a map <span class="Math">A_1\to B_1</span>. <code class="code">n</code> is actually determined by <code class="code">m</code> up to a chain homotopy. Therefore, we don't need to give <code class="code">n</code> explicitly.</p>
+
+<p><a id="X7A97BF7B7F3E9A3B" name="X7A97BF7B7F3E9A3B"></a></p>
+
+<h5>3.1-5 UnderlyingMatrix</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; UnderlyingMatrix</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p>Returns: the underlying matirx <span class="Math">A_0\to B_0</span> of a <code class="code">FGAbHomomorphism</code></p>
+
+<p><a id="X7E90BCEA7AD9EDEB" name="X7E90BCEA7AD9EDEB"></a></p>
+
+<h5>3.1-6 LiftingMatrix</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; LiftingMatrix</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p>Returns: the underlying matirx <span class="Math">A_1\to B_1</span> of a <code class="code">FGAbHomomorphism</code></p>
+
+<p><a id="X857CF4D487158F26" name="X857CF4D487158F26"></a></p>
+
+<h4>3.2 <span class="Heading">limits and colimits</span></h4>
+
+<p><a id="X7A38EC84839A5408" name="X7A38EC84839A5408"></a></p>
+
+<h5>3.2-1 FGAbKernel</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; FGAbKernel</code>( <var class="Arg">f</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; FromFGAbKernel</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; UnderlyingFGAbKernel</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; KernelOfAdditiveGeneralMapping</code>( <var class="Arg">f</var> )</td><td class="tdright">(&nbsp;method&nbsp;)</td></tr></table></div>
+<p><code class="code">FGAbKernel(f)</code> is a <code class="code">FGAb</code> equipped with <code class="code">FromFGAbKernel</code>. The input of <code class="code">FromFGAbKernel</code> must be a output of <code class="code">FGAbKernel</code>.</p>
+
+<p>You can use just <code class="code">Kernel(f)</code> to get the same result as <code class="code">KernelOfAdditiveGeneralMapping(f)</code>. <code class="code">Kernel(f)</code> has an attribute <code class="code">UnderlyingFGAbKernel(A)</code> which is a output of <code class="code">FGAbKernel</code>.</p>
+
+<p><code class="code">Kernel(f)</code> is what you should use. Because <code class="code">Kernel(f)</code> is actually a subset of <code class="code">Range(f)</code>, in particular, a SubFGAb. However, <code class="code">FGAbKernel(f)</code> is just a <code class="code">FGAb</code> equipped with a canonical map. <code class="code">FGAbKernel</code> should be treated as an inner-built function, which is used to get <code class="code">kernel(f)</code>.</p>
+
+<p><a id="X7E7E8F57805CB1DF" name="X7E7E8F57805CB1DF"></a></p>
+
+<h5>3.2-2 FGAbCokernel</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; FGAbCokernel</code>( <var class="Arg">f</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ToFGAbCokernel</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><code class="code">FGAbKernel(f)</code> is a <code class="code">FGAb</code> equipped with <code class="code">ToFGAbCokernel</code>. The input of <code class="code">FromFGAbCokernel</code> must be a output of <code class="code">FGAbCokernel</code>.</p>
+
+<p><a id="X87A48093864D9E0E" name="X87A48093864D9E0E"></a></p>
+
+<h5>3.2-3 FGAbPullback</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; FGAbPullback</code>( <var class="Arg">f1</var>, <var class="Arg">f2</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; FromFGAbPullback</code>( <var class="Arg">A</var>, <var class="Arg">n</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><code class="code">FGAbPullback(f1, f2)</code> is a <code class="code">FGAb</code> equipped with <code class="code">FromFGAbPullback</code>. <code class="code">FromFGAbPullback(A, n)</code> is the projection to <code class="code">Source(f1)</code> or <code class="code">Source(f2)</code>.</p>
+
+<p><a id="X7C87F9E685850A2D" name="X7C87F9E685850A2D"></a></p>
+
+<h5>3.2-4 FGAbPushout</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; FGAbPushout</code>( <var class="Arg">f1</var>, <var class="Arg">f2</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ToFGAbPushout</code>( <var class="Arg">A</var>, <var class="Arg">n</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><code class="code">FGAbPushout(f1, f2)</code> is a <code class="code">FGAb</code> equipped with <code class="code">ToFGAbPushout</code>. <code class="code">ToFGAbPushout(A, n)</code> is the projection to <code class="code">Range(f1)</code> or <code class="code">Range(f2)</code>.</p>
+
+
+<div class="chlinkprevnextbot">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap2.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chapInd.html">[Next Chapter]</a>&nbsp;  </div>
+
+
+<div class="chlinkbot"><span class="chlink1">Goto Chapter: </span><a href="chap0.html">Top</a>  <a href="chap1.html">1</a>  <a href="chap2.html">2</a>  <a href="chap3.html">3</a>  <a href="chapInd.html">Ind</a>  </div>
+
+<hr />
+<p class="foot">generated by <a href="https://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc">GAPDoc2HTML</a></p>
+</body>
+</html>

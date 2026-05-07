@@ -1,0 +1,18 @@
+  
+  [1X1 [33X[0;0YIntroduction[133X[101X
+  
+  [33X[0;0YThis  package  is  developed  for  computation  problems  of  [10XFGAb[110X, i.e. the
+  abbreviation  of finitely generated abelian groups. For example, we are able
+  to  compute  the  kernel  and cokernel of a [10XFGAbHomomorphism[110X, along with the
+  direct  sum,  we  can compute all finite limits and colimits, in particular,
+  pullback and pushout.[133X
+  
+  [33X[0;0YThe  basic  idea is to use a matrix [23Xf[123X over integers to represent a [10XFGAb[110X. The
+  finitely  generated  abelian  group  [23XA[123X  it  represents  is equivalent to the
+  cokernel  of  [23Xf:\mathbb{Z}^n\to  \mathbb{Z}^m[123X.  The readers who are familiar
+  with  the  homological  algebra  could  think [23Xf[123X as the free resolutoin of [23XA[123X.
+  Actually,  almost  all  algorithms  in  this package are developed using the
+  knowledge  of  homological algebra. For example, we use the mapping cone and
+  cocone to compute kernel and cokernel. For more details, see the appendix of
+  our paper [23X\color{red}{\textrm{(add this later)}}[123X.[133X
+  

@@ -1,0 +1,194 @@
+#SIXFORMAT  GapDocGAP
+HELPBOOKINFOSIXTMP := rec(
+encoding := "UTF-8",
+bookname := "fgab",
+entries :=
+[ [ "Title page", "0.0", [ 0, 0, 0 ], 1,, "title page", "X7D2C85EC87DD46E5" ],
+  [ "Table of Contents", "0.0-1", [ 0, 0, 1 ], 23,, "table of contents", 
+      "X8537FEB07AF2BEC8" ], 
+  [ "\033[1X\033[33X\033[0;-2YIntroduction\033[133X\033[101X", "1", 
+      [ 1, 0, 0 ], 1,, "introduction", "X7DFB63A97E67C0A1" ], 
+  [ 
+      "\033[1X\033[33X\033[0;-2Y\033[10XFGAb\033[110X\033[101X\027\033[1X\027\\
+033[133X\033[101X", "2", [ 2, 0, 0 ], 1,, "fgab", "X802A67727D87EFF5" ], 
+  [ 
+      "\033[1X\033[33X\033[0;-2Y\033[10XFGAbElement\033[110X\033[101X\027\033[1X\\
+027\033[133X\033[101X", "2.1", [ 2, 1, 0 ], 9,, "fgabelement", 
+      "X833081227C05A75C" ], 
+  [ "\033[1X\033[33X\033[0;-2YAdditive Group\033[133X\033[101X", "2.2", 
+      [ 2, 2, 0 ], 26,, "additive group", "X85E244B5797D4BBD" ], 
+  [ 
+      "\033[1X\033[33X\033[0;-2Y\033[10XFGAbHomomorphism\033[110X\033[101X\027\\
+033[1X\027\033[133X\033[101X", "3", [ 3, 0, 0 ], 1,, "fgabhomomorphism", 
+      "X7E7B90F37DDBF289" ], 
+  [ 
+      "\033[1X\033[33X\033[0;-2Y\033[10XFGAbHomomorphism\033[110X\033[101X\027\\
+033[1X\027\033[133X\033[101X", "3.1", [ 3, 1, 0 ], 4,, "fgabhomomorphism", 
+      "X7E7B90F37DDBF289" ], 
+  [ 
+      "\033[1X\033[33X\033[0;-2Y\033[10XImage\033[110X\033[101X\027\033[1X\027, \\
+033[10XImages\033[110X\033[101X\027\033[1X\027\033[133X\033[101X", "3.1-1", 
+      [ 3, 1, 1 ], 7,, "image images", "X87F942ED85370A8A" ], 
+  [ 
+      "\033[1X\033[33X\033[0;-2Y\033[10XPreImage\033[110X\033[101X\027\033[1X\\
+027, \033[10XPreImages\033[110X\033[101X\027\033[1X\027\033[133X\033[101X", 
+      "3.1-2", [ 3, 1, 2 ], 12,, "preimage preimages", "X7B8B0F7A78067FF4" ], 
+  [ "\033[1X\033[33X\033[0;-2Ylimits and colimits\033[133X\033[101X", "3.2", 
+      [ 3, 2, 0 ], 47,, "limits and colimits", "X857CF4D487158F26" ], 
+  [ "Index", "ind", [ "Ind", 0, 0 ], 1,, "index", "X83A0356F839C696F" ], 
+  [ "\033[2XFGAbElement\033[102X for IsFGAb, IsVector", "2.1-1", [ 2, 1, 1 ], 
+      12,, "fgabelement for isfgab isvector", "X85FB9A8E7D9D5BD9" ], 
+  [ 
+      "\033[2XIsFGAbElement\033[102X for IsAdditiveElementWithInverse and IsAddit\
+iveElementWithZero and IsExtLElement and IsExtRElement", "2.1-2", 
+      [ 2, 1, 2 ], 19,, 
+      "isfgabelement for isadditiveelementwithinverse and isadditiveelementwit\
+hzero and isextlelement and isextrelement", "X78C70AB87C8D345C" ], 
+  [ "\033[2XIsFGAbElementCollection\033[102X", "2.1-2", [ 2, 1, 2 ], 19,, 
+      "isfgabelementcollection", "X78C70AB87C8D345C" ], 
+  [ "\033[2XIsFGAbElementCollColl\033[102X", "2.1-2", [ 2, 1, 2 ], 19,, 
+      "isfgabelementcollcoll", "X78C70AB87C8D345C" ], 
+  [ "\033[2XIsFGAb\033[102X for IsAdditiveGroup and IsFGAbElementCollection", 
+      "2.2-1", [ 2, 2, 1 ], 29,, 
+      "isfgab for isadditivegroup and isfgabelementcollection", 
+      "X812F2E4D7EE2725A" ], 
+  [ "\033[2XUnderlyingMatrix\033[102X for IsFGAb and IsFGAbRep", "2.2-2", 
+      [ 2, 2, 2 ], 36,, "underlyingmatrix for isfgab and isfgabrep", 
+      "X82A67F3784ED5DDC" ], 
+  [ "\033[2XSimplifiedFGAb\033[102X for IsFGAb and IsFGAbRep", "2.2-3", 
+      [ 2, 2, 3 ], 41,, "simplifiedfgab for isfgab and isfgabrep", 
+      "X78580BDE798175FE" ], 
+  [ "\033[2XToSimplifiedFGAb\033[102X for IsFGAb and IsFGAbRep", "2.2-3", 
+      [ 2, 2, 3 ], 41,, "tosimplifiedfgab for isfgab and isfgabrep", 
+      "X78580BDE798175FE" ], 
+  [ "\033[2XFromSimplifiedFGAb\033[102X for IsFGAb and IsFGAbRep", "2.2-3", 
+      [ 2, 2, 3 ], 41,, "fromsimplifiedfgab for isfgab and isfgabrep", 
+      "X78580BDE798175FE" ], 
+  [ "\033[2XFGAb\033[102X for IsVector", "2.2-4", [ 2, 2, 4 ], 52,, 
+      "fgab for isvector", "X8218CF358690CA7A" ], 
+  [ "\033[2XFreeFGAb\033[102X for IsInt", "2.2-5", [ 2, 2, 5 ], 60,, 
+      "freefgab for isint", "X83E9554D87ADDB5C" ], 
+  [ "\033[2XSubFGAb\033[102X for IsFGAb, IsList", "2.2-6", [ 2, 2, 6 ], 65,, 
+      "subfgab for isfgab islist", "X8504AC788030B079" ], 
+  [ "\033[2XFromSubFGAb\033[102X for IsFGAb and IsFGAbRep", "2.2-6", 
+      [ 2, 2, 6 ], 65,, "fromsubfgab for isfgab and isfgabrep", 
+      "X8504AC788030B079" ], 
+  [ "\033[2XIndependentGeneratorsOfAdditiveGroup\033[102X for IsAdditiveGroup"
+        , "2.2-7", [ 2, 2, 7 ], 73,, 
+      "independentgeneratorsofadditivegroup for isadditivegroup", 
+      "X81A7960B80AEBBDF" ], 
+  [ "\033[2XFGAbDirectSum\033[102X for IsFGAb, IsFGAb", "2.2-8", [ 2, 2, 8 ], 
+      81,, "fgabdirectsum for isfgab isfgab", "X7C9D77E27FA5601A" ], 
+  [ "\033[2XFGAbDirectSum\033[102X for IsList", "2.2-8", [ 2, 2, 8 ], 81,, 
+      "fgabdirectsum for islist", "X7C9D77E27FA5601A" ], 
+  [ "\033[2XFGAbDirectSumInfo\033[102X for IsFGAb", "2.2-8", [ 2, 2, 8 ], 81,
+      , "fgabdirectsuminfo for isfgab", "X7C9D77E27FA5601A" ], 
+  [ 
+      "\033[2XEmbedding\033[102X for IsFGAb and IsFGAbRep and HasFGAbDirectSumInf\
+o, IsPosInt", "2.2-8", [ 2, 2, 8 ], 81,, 
+      "embedding for isfgab and isfgabrep and hasfgabdirectsuminfo isposint", 
+      "X7C9D77E27FA5601A" ], 
+  [ 
+      "\033[2XProjection\033[102X for IsFGAb and IsFGAbRep and HasFGAbDirectSumIn\
+fo, IsPosInt", "2.2-8", [ 2, 2, 8 ], 81,, 
+      "projection for isfgab and isfgabrep and hasfgabdirectsuminfo isposint",
+      "X7C9D77E27FA5601A" ], 
+  [ "\033[2XGeneratorsOfAdditiveGroup\033[102X for IsFGAb and IsFGAbRep", 
+      "2.2-9", [ 2, 2, 9 ], 93,, 
+      "generatorsofadditivegroup for isfgab and isfgabrep", 
+      "X86EC1DD67A24122F" ], 
+  [ 
+      "\033[2XIntersection2\033[102X for IsAdditiveGroup and IsFGAbElementCollect\
+ion, IsAdditiveGroup and IsFGAbElementCollection", "2.2-10", [ 2, 2, 10 ], 98,
+      , 
+      "intersection2 for isadditivegroup and isfgabelementcollection isadditiv\
+egroup and isfgabelementcollection", "X7A40CD9D7BDD45BB" ], 
+  [ 
+      "\033[2X\\+\033[102X for IsAdditiveGroup and IsFGAbElementCollection, IsAdd\
+itiveGroup and IsFGAbElementCollection", "2.2-11", [ 2, 2, 11 ], 106,, 
+      "+ for isadditivegroup and isfgabelementcollection isadditivegroup and i\
+sfgabelementcollection", "X7809D15B84AECCB2" ], 
+  [ "\033[2XIsTrivial\033[102X for IsFGAb and IsFGAbRep", "2.2-12", 
+      [ 2, 2, 12 ], 113,, "istrivial for isfgab and isfgabrep", 
+      "X7E587C87785E33FD" ], 
+  [ 
+      "\033[2X\\=\033[102X for IsAdditiveGroup and IsFGAbElementCollection, IsAdd\
+itiveGroup and IsFGAbElementCollection", "2.2-13", [ 2, 2, 13 ], 119,, 
+      "= for isadditivegroup and isfgabelementcollection isadditivegroup and i\
+sfgabelementcollection", "X7A3FEFDF7BE387E7" ], 
+  [ "\033[2XIsFGAbHomomorphism\033[102X for IsAdditiveGroupGeneralMapping", 
+      "3.1-3", [ 3, 1, 3 ], 19,, 
+      "isfgabhomomorphism for isadditivegroupgeneralmapping", 
+      "X80E6E0F67EB4EE86" ], 
+  [ "\033[2XFGAbHomomorphism\033[102X for IsFGAb, IsFGAb, IsMatrixOrMatrixObj"
+        , "3.1-4", [ 3, 1, 4 ], 24,, 
+      "fgabhomomorphism for isfgab isfgab ismatrixormatrixobj", 
+      "X7E77D0B08589328A" ], 
+  [ 
+      "\033[2XFGAbHomomorphismNC\033[102X for IsFGAb, IsFGAb, IsMatrixOrMatrixObj\
+", "3.1-4", [ 3, 1, 4 ], 24,, 
+      "fgabhomomorphismnc for isfgab isfgab ismatrixormatrixobj", 
+      "X7E77D0B08589328A" ], 
+  [ 
+      "\033[2XFGAbHomomorphism\033[102X for IsFGAb, IsFGAb, IsMatrixOrMatrixObj, \
+IsMatrixOrMatrixObj", "3.1-4", [ 3, 1, 4 ], 24,, 
+      "fgabhomomorphism for isfgab isfgab ismatrixormatrixobj ismatrixormatrix\
+obj", "X7E77D0B08589328A" ], 
+  [ 
+      "\033[2XFGAbHomomorphismNC\033[102X for IsFGAb, IsFGAb, IsMatrixOrMatrixObj\
+, IsMatrixOrMatrixObj", "3.1-4", [ 3, 1, 4 ], 24,, 
+      "fgabhomomorphismnc for isfgab isfgab ismatrixormatrixobj ismatrixormatr\
+ixobj", "X7E77D0B08589328A" ], 
+  [ 
+      "\033[2XUnderlyingMatrix\033[102X for IsFGAbHomomorphism and IsFGAbHomomorp\
+hismRep", "3.1-5", [ 3, 1, 5 ], 37,, 
+      "underlyingmatrix for isfgabhomomorphism and isfgabhomomorphismrep", 
+      "X7A97BF7B7F3E9A3B" ], 
+  [ 
+      "\033[2XLiftingMatrix\033[102X for IsFGAbHomomorphism and IsFGAbHomomorphis\
+mRep", "3.1-6", [ 3, 1, 6 ], 42,, 
+      "liftingmatrix for isfgabhomomorphism and isfgabhomomorphismrep", 
+      "X7E90BCEA7AD9EDEB" ], 
+  [ 
+      "\033[2XFGAbKernel\033[102X for IsFGAbHomomorphism and IsFGAbHomomorphismRe\
+p", "3.2-1", [ 3, 2, 1 ], 50,, 
+      "fgabkernel for isfgabhomomorphism and isfgabhomomorphismrep", 
+      "X7A38EC84839A5408" ], 
+  [ "\033[2XFromFGAbKernel\033[102X for IsFGAb and IsFGAbRep", "3.2-1", 
+      [ 3, 2, 1 ], 50,, "fromfgabkernel for isfgab and isfgabrep", 
+      "X7A38EC84839A5408" ], 
+  [ "\033[2XUnderlyingFGAbKernel\033[102X for IsAdditiveGroup", "3.2-1", 
+      [ 3, 2, 1 ], 50,, "underlyingfgabkernel for isadditivegroup", 
+      "X7A38EC84839A5408" ], 
+  [ 
+      "\033[2XKernelOfAdditiveGeneralMapping\033[102X for IsFGAbHomomorphism and \
+IsFGAbHomomorphismRep", "3.2-1", [ 3, 2, 1 ], 50,, 
+      "kernelofadditivegeneralmapping for isfgabhomomorphism and isfgabhomomor\
+phismrep", "X7A38EC84839A5408" ], 
+  [ 
+      "\033[2XFGAbCokernel\033[102X for IsFGAbHomomorphism and IsFGAbHomomorphism\
+Rep", "3.2-2", [ 3, 2, 2 ], 69,, 
+      "fgabcokernel for isfgabhomomorphism and isfgabhomomorphismrep", 
+      "X7E7E8F57805CB1DF" ], 
+  [ "\033[2XToFGAbCokernel\033[102X for IsFGAb and IsFGAbRep", "3.2-2", 
+      [ 3, 2, 2 ], 69,, "tofgabcokernel for isfgab and isfgabrep", 
+      "X7E7E8F57805CB1DF" ], 
+  [ 
+      "\033[2XFGAbPullback\033[102X for IsFGAbHomomorphism and IsFGAbHomomorphism\
+Rep, IsFGAbHomomorphism and IsFGAbHomomorphismRep", "3.2-3", [ 3, 2, 3 ], 77,
+      , 
+      "fgabpullback for isfgabhomomorphism and isfgabhomomorphismrep isfgabhom\
+omorphism and isfgabhomomorphismrep", "X87A48093864D9E0E" ], 
+  [ "\033[2XFromFGAbPullback\033[102X for IsFGAb and IsFGAbRep, IsInt", 
+      "3.2-3", [ 3, 2, 3 ], 77,, 
+      "fromfgabpullback for isfgab and isfgabrep isint", "X87A48093864D9E0E" ]
+    , 
+  [ 
+      "\033[2XFGAbPushout\033[102X for IsFGAbHomomorphism and IsFGAbHomomorphismR\
+ep, IsFGAbHomomorphism and IsFGAbHomomorphismRep", "3.2-4", [ 3, 2, 4 ], 85,, 
+      "fgabpushout for isfgabhomomorphism and isfgabhomomorphismrep isfgabhomo\
+morphism and isfgabhomomorphismrep", "X7C87F9E685850A2D" ], 
+  [ "\033[2XToFGAbPushout\033[102X for IsFGAb and IsFGAbRep, IsInt", "3.2-4", 
+      [ 3, 2, 4 ], 85,, "tofgabpushout for isfgab and isfgabrep isint", 
+      "X7C87F9E685850A2D" ] ]
+);

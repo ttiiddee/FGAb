@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an automatically generated file. -->
+<Chapter Label="Chapter_fgab_automatic_generated_documentation">
+<Heading>fgab automatic generated documentation</Heading>
+
+<Section Label="Chapter_fgab_automatic_generated_documentation_Section_fgab_automatic_generated_documentation_of_methods">
+<Heading>fgab automatic generated documentation of methods</Heading>
+
+<ManSection Label="`FGAbDirectSum`">
+  <Oper Arg="arg1,arg2" Name="FGAbDirectSum" Label="for IsFGAb, IsFGAb"/>
+ <Description>
+<P/>
+ </Description>
+</ManSection>
+
+</Section>
+
+</Chapter>
+

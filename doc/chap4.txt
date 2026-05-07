@@ -1,0 +1,10 @@
+  
+  [1X4 [33X[0;0Yfgab automatic generated documentation[133X[101X
+  
+  
+  [1X4.1 [33X[0;0Yfgab automatic generated documentation of methods[133X[101X
+  
+  [1X4.1-1 FGAbDirectSum[101X
+  
+  [33X[1;0Y[29X[2XFGAbDirectSum[102X( [3Xarg1[103X, [3Xarg2[103X ) [32X operation[133X
+  

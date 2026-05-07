@@ -1,0 +1,61 @@
+  
+  
+                                     [1X fgab [101X
+  
+  
+                    [1X for finitely generated abelian groups [101X
+  
+  
+                                      0.1
+  
+  
+                                25 February 2026
+  
+  
+                                   Tian Yuan
+  
+  
+  
+  Tian Yuan
+      Email:    [7Xmailto:ttiiddee@foxmail.com[107X
+  
+  -------------------------------------------------------
+  
+  
+  [1XContents (fgab)[101X
+  
+  1 [33X[0;0YIntroduction[133X
+  2 [33X[0;0Y[10XFGAb[110X[133X
+    2.1 [33X[0;0Y[10XFGAbElement[110X[133X
+      2.1-1 FGAbElement
+      2.1-2 IsFGAbElement
+    2.2 [33X[0;0YAdditive Group[133X
+      2.2-1 IsFGAb
+      2.2-2 UnderlyingMatrix
+      2.2-3 SimplifiedFGAb
+      2.2-4 FGAb
+      2.2-5 FreeFGAb
+      2.2-6 SubFGAb
+      2.2-7 IndependentGeneratorsOfAdditiveGroup
+      2.2-8 FGAbDirectSum
+      2.2-9 GeneratorsOfAdditiveGroup
+      2.2-10 Intersection2
+      2.2-11 \+
+      2.2-12 IsTrivial
+      2.2-13 \=
+  3 [33X[0;0Y[10XFGAbHomomorphism[110X[133X
+    3.1 [33X[0;0Y[10XFGAbHomomorphism[110X[133X
+      3.1-1 [33X[0;0Y[10XImage[110X, [10XImages[110X[133X
+      3.1-2 [33X[0;0Y[10XPreImage[110X, [10XPreImages[110X[133X
+      3.1-3 IsFGAbHomomorphism
+      3.1-4 FGAbHomomorphism
+      3.1-5 UnderlyingMatrix
+      3.1-6 LiftingMatrix
+    3.2 [33X[0;0Ylimits and colimits[133X
+      3.2-1 FGAbKernel
+      3.2-2 FGAbCokernel
+      3.2-3 FGAbPullback
+      3.2-4 FGAbPushout
+  
+  
+  [32X

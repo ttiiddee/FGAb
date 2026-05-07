@@ -1,0 +1,48 @@
+  
+  
+  [1XIndex[101X
+  
+  [2X\+[102X, for IsAdditiveGroup and IsFGAbElementCollection, IsAdditiveGroup and IsFGAbElementCollection 2.2-11 
+  [2X\=[102X, for IsAdditiveGroup and IsFGAbElementCollection, IsAdditiveGroup and IsFGAbElementCollection 2.2-13 
+  [2XEmbedding[102X, for IsFGAb and IsFGAbRep and HasFGAbDirectSumInfo, IsPosInt 2.2-8 
+  [2XFGAb[102X, for IsVector 2.2-4 
+  [2XFGAbCokernel[102X, for IsFGAbHomomorphism and IsFGAbHomomorphismRep 3.2-2 
+  [2XFGAbDirectSum[102X, for IsFGAb, IsFGAb 2.2-8 
+      for IsList 2.2-8 
+  [2XFGAbDirectSumInfo[102X, for IsFGAb 2.2-8 
+  [2XFGAbElement[102X, for IsFGAb, IsVector 2.1-1 
+  [2XFGAbHomomorphism[102X, for IsFGAb, IsFGAb, IsMatrixOrMatrixObj 3.1-4 
+      for IsFGAb, IsFGAb, IsMatrixOrMatrixObj, IsMatrixOrMatrixObj 3.1-4 
+  [2XFGAbHomomorphismNC[102X, for IsFGAb, IsFGAb, IsMatrixOrMatrixObj 3.1-4 
+      for IsFGAb, IsFGAb, IsMatrixOrMatrixObj, IsMatrixOrMatrixObj 3.1-4 
+  [2XFGAbKernel[102X, for IsFGAbHomomorphism and IsFGAbHomomorphismRep 3.2-1 
+  [2XFGAbPullback[102X, for IsFGAbHomomorphism and IsFGAbHomomorphismRep, IsFGAbHomomorphism and IsFGAbHomomorphismRep 3.2-3 
+  [2XFGAbPushout[102X, for IsFGAbHomomorphism and IsFGAbHomomorphismRep, IsFGAbHomomorphism and IsFGAbHomomorphismRep 3.2-4 
+  [2XFreeFGAb[102X, for IsInt 2.2-5 
+  [2XFromFGAbKernel[102X, for IsFGAb and IsFGAbRep 3.2-1 
+  [2XFromFGAbPullback[102X, for IsFGAb and IsFGAbRep, IsInt 3.2-3 
+  [2XFromSimplifiedFGAb[102X, for IsFGAb and IsFGAbRep 2.2-3 
+  [2XFromSubFGAb[102X, for IsFGAb and IsFGAbRep 2.2-6 
+  [2XGeneratorsOfAdditiveGroup[102X, for IsFGAb and IsFGAbRep 2.2-9 
+  [2XIndependentGeneratorsOfAdditiveGroup[102X, for IsAdditiveGroup 2.2-7 
+  [2XIntersection2[102X, for IsAdditiveGroup and IsFGAbElementCollection, IsAdditiveGroup and IsFGAbElementCollection 2.2-10 
+  [2XIsFGAb[102X, for IsAdditiveGroup and IsFGAbElementCollection 2.2-1 
+  [2XIsFGAbElement[102X, for IsAdditiveElementWithInverse and IsAdditiveElementWithZero and IsExtLElement and IsExtRElement 2.1-2 
+  [2XIsFGAbElementCollColl[102X 2.1-2 
+  [2XIsFGAbElementCollection[102X 2.1-2 
+  [2XIsFGAbHomomorphism[102X, for IsAdditiveGroupGeneralMapping 3.1-3 
+  [2XIsTrivial[102X, for IsFGAb and IsFGAbRep 2.2-12 
+  [2XKernelOfAdditiveGeneralMapping[102X, for IsFGAbHomomorphism and IsFGAbHomomorphismRep 3.2-1 
+  [2XLiftingMatrix[102X, for IsFGAbHomomorphism and IsFGAbHomomorphismRep 3.1-6 
+  [2XProjection[102X, for IsFGAb and IsFGAbRep and HasFGAbDirectSumInfo, IsPosInt 2.2-8 
+  [2XSimplifiedFGAb[102X, for IsFGAb and IsFGAbRep 2.2-3 
+  [2XSubFGAb[102X, for IsFGAb, IsList 2.2-6 
+  [2XToFGAbCokernel[102X, for IsFGAb and IsFGAbRep 3.2-2 
+  [2XToFGAbPushout[102X, for IsFGAb and IsFGAbRep, IsInt 3.2-4 
+  [2XToSimplifiedFGAb[102X, for IsFGAb and IsFGAbRep 2.2-3 
+  [2XUnderlyingFGAbKernel[102X, for IsAdditiveGroup 3.2-1 
+  [2XUnderlyingMatrix[102X, for IsFGAb and IsFGAbRep 2.2-2 
+      for IsFGAbHomomorphism and IsFGAbHomomorphismRep 3.1-5 
+  
+  
+  -------------------------------------------------------

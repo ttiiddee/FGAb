@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an automatically generated file. -->
+<Chapter Label="Chapter_Introduction">
+<Heading>Introduction</Heading>
+
+<P/>
+This package is developed for computation problems of <Code>FGAb</Code>, i.e. the abbreviation of finitely generated abelian groups. For example, we are able to compute the kernel and cokernel of a <Code>FGAbHomomorphism</Code>, along with the direct sum, we can compute all finite limits and colimits, in particular, pullback and pushout.
+<P/>
+The basic idea is to use a matrix <Math>f</Math> over integers to represent a <Code>FGAb</Code>. The finitely generated abelian group <Math>A</Math> it represents is equivalent to the cokernel of <Math>f:\mathbb{Z}^n\to \mathbb{Z}^m</Math>. The readers who are familiar with the homological algebra could think <Math>f</Math> as the free resolutoin of <Math>A</Math>. Actually, almost all algorithms in this package are developed using the knowledge of homological algebra. For example, we use the mapping cone and cocone to compute kernel and cokernel. For more details, see the appendix of our paper <Math>\color{red}{\textrm{(add this later)}}</Math>.
+<P/>
+</Chapter>
+
